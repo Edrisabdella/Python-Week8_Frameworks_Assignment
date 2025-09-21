@@ -17,11 +17,12 @@ This project explores the **CORD-19 dataset** (`metadata.csv`) and creates a sim
 ---
 
 ## 🛠️ Tools Used
-- Python 3.7+  
-- Pandas  
-- Matplotlib & Seaborn  
-- Streamlit  
-- WordCloud  
+- pandas==1.5.3
+- matplotlib==3.7.0
+- seaborn==0.12.2
+- streamlit==1.22.0
+- wordcloud==1.9.2
+- numpy==1.24.2 
 
 ---
 
@@ -69,6 +70,29 @@ jupyter notebook notebook.ipynb
 ```bash
 streamlit run app.py
 ```
+
+## Project Structure text
+
+- `cord19_analysis.py`: Script for data loading, cleaning, analysis, and visualization
+- `app.py`: Streamlit application for interactive data exploration
+- `requirements.txt`: Python dependencies
+- `README.md`: Project documentation
+
+## Features
+
+- Data loading and cleaning
+- Basic exploratory data analysis
+- Visualizations including bar charts, histograms, and word clouds
+- Interactive Streamlit app with filters for year and journal
+- Metrics and insights about the dataset
+
+## Results
+
+The analysis reveals patterns in COVID-19 research publications, including:
+- Trends in publication volume over time
+- Most prolific journals in COVID-19 research
+- Common words in paper titles
+- Distribution of abstract lengths
 
 ---
 
